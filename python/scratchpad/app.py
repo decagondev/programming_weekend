@@ -25,9 +25,6 @@ class Vec3(Vec2):
         super().__init__(x, y)
         self.z = z
 
-     def __add__(self, other):
-        return self
-
 
 v = Vec2(2, 4)
 v2 = Vec2(4, 8)
