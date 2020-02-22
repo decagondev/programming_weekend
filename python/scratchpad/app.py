@@ -1,0 +1,1 @@
+# a scratchpad playgound to talk about some concepts and write snippets of code
