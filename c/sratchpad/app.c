@@ -65,6 +65,16 @@ struct point {
 } Point;
 
 Point p;
-p.x = 12.67;
-p.y = 12.5;
+p.x = 12;
+p.y = 12;
+
+Point add_point(Point a, Point b) {
+    Point c;
+    c.x = a.x + b.x;
+    c.y = a.y + b.y;
+    return c;
+}
+
+Point p2 = add_point(p, p);
+p2.x // => 24
 
